@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 
-require('db.php');
+require('database.php');
 require '../utils/response.php';
 
 $data = json_decode(file_get_contents("php://input"), true);
