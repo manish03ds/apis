@@ -1,5 +1,5 @@
 <?php
-require '../config/db.php';
+require('database.php');
 
 header("Content-Type: application/json");
 
