@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../config/db.php';
+require('database.php');
 header('Content-Type: application/json');
 
 $userId = $_GET['user_id'] ?? 0;
