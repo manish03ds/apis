@@ -1,6 +1,5 @@
 <?php
-require_once "../config/db.php";
-
+require('database.php');
 header("Content-Type: application/json");
 
 if (!isset($_GET['user_id'])) {
