@@ -2,7 +2,7 @@
 
 header("Content-Type: application/json");
 
-require_once '../config/db.php';
+require('database.php');
 
 // read JSON input from Flutter
 $data = json_decode(file_get_contents("php://input"), true);
