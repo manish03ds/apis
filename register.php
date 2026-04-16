@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 
 require('database.php');
-require '../utils/response.php';
+require ('response.php');
 
 $data = json_decode(file_get_contents("php://input"), true);
 
